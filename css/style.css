@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+:root{
+    --text-color:rgb(226, 214, 154);
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+   background:url(../images/view.jpg) no-repeat center center ;  
+   background-size: cover;
+   display: flex;
+   justify-content:center ;
+}
+.box{
+    width: 600px;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.651);
+    margin:30px 0;
+    border-radius: 15px;
+    padding: 20px;
+
+}
+.container {
+    width: 550px;
+    margin: 0 auto;
+  }
+  /* form */
+.form h1{
+    color: gold;
+    font-size: 33px;
+    text-align: center;
+    padding: 20px;
+}
+.form> p{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px dotted white ;
+    padding: 5px 0;
+}
+/* name */
+.form-inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.form-inner> label{
+    display: block;
+    margin:0 60px;
+    margin-top: 10px;
+    padding-top: 10px;
+    color: gold;
+}
+.text{
+    color: red;
+}
+
+#firstName,#lastName {
+    width: 28%;
+    margin: 0 5px;
+    margin-top:25px;
+    font-size: 14px;
+}
+.form input{
+margin-top:10px;
+height: 30px
+}
+input{
+    border: 3px solid var(--text-color);
+    background-color: transparent;
+    color: white;
+}
+.form-inner-dinner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: gold;
+    margin-left: 20px;
+    font-size: 18px;
+   
+}
+.lable1  {
+    padding-left: 35px;
+    width:39%;
+    margin-left: 50px;
+}
+/* email */
+#Email{
+    width:60%;
+    margin-top: 10px;
+}
+/* phone */
+#Phone1,#Phone2,#Phone3{
+    margin-top: 18px;
+    width: 17%;
+}
+.Space{
+    display: block;
+    color: gold;
+    padding: 7.5px;
+    text-align: center;
+    margin-top:15px;
+}
+.phone1,.phone2,.phone3{
+width:21%;
+padding-left: 55px;
+font-size: 14px;
+}
+
+/* terms */
+
+.title-checbox{
+    color: gold;
+    padding-top: 10px;
+    padding-left:5px ;
+}
+
+/* control */
+.form-control{
+   width:60px;
+   height: 30px;
+   border: 3px solid var(--text-color); 
+   background-color: transparent;
+   color: white;
+   margin:0 180px;
+    margin-top: 15px;  
+}
+/* total */
+.form-total{
+   width: 60%;
+   height: 70px;
+   background-color:rgba(0, 0, 0, 0.589); 
+   margin: 30px 170px;
+}
+.form-total label {
+    display: block;
+    color: white;
+    padding:10px 10px;
+
+}
+.form-total label span{
+margin-left:130px;
+}
+.form-total hr{
+margin: 0 auto;
+
+}
+/* PURCHASE */
+.btn-primary{
+    padding: 10px 113px;
+    width: 60%;
+    margin: 0 170px;
+    font-size: 20px;
+    color: white;
+    background-color: firebrick;
+    border: 1px solid firebrick;
+    border-radius: 5px;
+}
